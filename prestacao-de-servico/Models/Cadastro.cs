@@ -48,6 +48,8 @@ namespace prestacao_de_servico.Models
 
         [Required]
         public TipoServico Servico { get; set; }
+
+        public virtual Login Login { get; set; }
     }
 
     public enum TipoUsuario

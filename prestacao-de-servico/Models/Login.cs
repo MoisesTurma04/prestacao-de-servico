@@ -16,5 +16,7 @@ namespace prestacao_de_servico.Models
         [Required]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
+
+        public virtual Cadastro Cadastro { get; set; }
     }
 }
